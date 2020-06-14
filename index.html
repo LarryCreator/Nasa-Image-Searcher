@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasa Image Searcher</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-title">Nasa Image Searcher</h1>
+      <div class="searcher">
+        <form>
+          <input
+            type="text"
+            class="user-input"
+            placeholder="ex: earth"
+            required
+          />
+          <button type="submit" class="submit">Search</button>
+        </form>
+      </div>
+      <template class="card-temp">
+        <div class="card">
+          <h1 class="title"></h1>
+          <img src="" alt="image" class="img" />
+          <p class="description"></p>
+        </div>
+      </template>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
